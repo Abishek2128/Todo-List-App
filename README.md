@@ -1,55 +1,110 @@
-# Welcome to your Expo app 👋
+# ✅ Todo Task Management App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a cross-platform Flutter mobile app for managing personal todo tasks with a clean UI, animations, local storage, and Google login integration.
 
-## Get started
+---
 
-1. Install dependencies
+## 🔥 Features
 
+- 🔐 Social login via Google (Firebase)
+- ✅ Create, Read, Update, Delete tasks
+- 🗓️ Task fields: title, description, due date, status, priority
+- 📁 Local data storage using Hive
+- 🧭 Filters, Search, Tabs
+- 🧹 Swipe to delete & pull to refresh
+- ✨ Smooth list animations (add/remove/complete)
+- 🛠 Crash reporting via Firebase Crashlytics
+
+---
+
+## 🚀 Tech Stack
+
+| Layer         | Tech                    |
+|---------------|-------------------------|
+| Mobile App    | Flutter                 |
+| State Mgmt    | Provider                |
+| Storage       | Hive                    |
+| Auth          | Firebase (Google Sign-In) |
+| Crash Reports | Firebase Crashlytics    |
+
+---
+
+## 🧱 Architecture
+
+![App Architecture](assets/architecture_diagram.png)  
+*(Replace with your own diagram or upload image to repo and link here)*
+
+--
+
+## 🛠 Setup Instructions
+
+1. **Clone this repo**:
    ```bash
-   npm install
+   git clone https://github.com/yourusername/katomaran-todo-app.git
+   cd katomaran-todo-app
    ```
 
-2. Start the app
-
+2. **Install packages**:
    ```bash
-   npx expo start
+   flutter pub get
    ```
 
-In the output, you'll find options to open the app in a
+3. **Run the app** (emulator or real device):
+   ```bash
+   flutter run
+   ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+4. **To build APK**:
+   ```bash
+   flutter build apk --release
+   ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🎥 Demo Video
 
-When you're ready, run:
+Watch the working demo here:  
+👉 [https://youtube.com/shorts/Z4R8tkQvrOk?si=PMiQl69ihecJr9Ou](https://youtube.com/shorts/Z4R8tkQvrOk?si=PMiQl69ihecJr9Ou)
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🔖 Assumptions
 
-## Learn more
+- No backend needed as local storage (Hive) is used.
+- Only Google sign-in is implemented.
+- Tasks are not persisted across devices.
+- Status is stored as `open` or `completed`.
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📄 APK
 
-## Join the community
+[Click here to download APK](https://github.com/yourusername/katomaran-todo-app/releases/download/v1.0/app-release.apk)
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🏁 How to Run
 
+1. Enable USB Debugging or start an Android emulator.
+2. Run `flutter run` to launch the app.
 
-Related YouTube Short
-Watch this short video for a quick overview:
-https://youtube.com/shorts/Z4R8tkQvrOk?si=PMiQl69ihecJr9Ou
+---
+
+## ✅ Hackathon Credit
+
+This project is a part of a hackathon run by [https://www.katomaran.com](https://www.katomaran.com)
+
+---
+
+## 🤖 AI Tools Used
+
+- ChatGPT (for architecture, README, state management patterns)
+- draw.io (for diagram)
+- Loom / YouTube Shorts (for screen recording)
+
+---
+
+## 📅 Submission Deadline
+
+Submitted before: **Sunday, July 6th, 2025, 9 PM**
+
