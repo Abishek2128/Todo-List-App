@@ -17,25 +17,6 @@ This is a cross-platform Flutter mobile app for managing personal todo tasks wit
 
 ---
 
-## 🚀 Tech Stack
-
-| Layer         | Tech                    |
-|---------------|-------------------------|
-| Mobile App    | Flutter                 |
-| State Mgmt    | Provider                |
-| Storage       | Hive                    |
-| Auth          | Firebase (Google Sign-In) |
-| Crash Reports | Firebase Crashlytics    |
-
----
-
-## 🧱 Architecture
-
-![App Architecture](assets/architecture_diagram.png)  
-*(Replace with your own diagram or upload image to repo and link here)*
-
---
-
 ## 🛠 Setup Instructions
 
 1. **Clone this repo**:
@@ -74,12 +55,6 @@ Watch the working demo here:
 - Only Google sign-in is implemented.
 - Tasks are not persisted across devices.
 - Status is stored as `open` or `completed`.
-
----
-
-## 📄 APK
-
-[Click here to download APK](https://github.com/yourusername/katomaran-todo-app/releases/download/v1.0/app-release.apk)
 
 ---
 
